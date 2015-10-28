@@ -13,3 +13,5 @@
 11. Gitbook-cli `$ npm install -g gitbook-cli`
 12. [Ragel State machine compiler](https://www.colm.net/open-source/ragel/) _v7 dev_
 13. [Sublime Text 3](http://www.sublimetext.com/3)
+14. [Homebrew](http://brew.sh) `$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+15. `$ brew install wget`
