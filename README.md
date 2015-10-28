@@ -12,3 +12,4 @@
 10. [Julia](http://julialang.org/downloads/) _current stable 0.4_.
 11. Gitbook-cli `$ npm install -g gitbook-cli`
 12. [Ragel State machine compiler](https://www.colm.net/open-source/ragel/) _v7 dev_
+13. [Sublime Text 3](http://www.sublimetext.com/3)
