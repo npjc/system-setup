@@ -18,3 +18,9 @@
 16. [Inconsolata font](http://www.levien.com/type/myfonts/inconsolata.html)
 17. [Lato 2.0 font](http://www.latofonts.com/lato-free-fonts/)
 18. [Source sans pro](https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro)
+19. pacman quickstart in R:
+
+  ```r
+  install.packages("pacman")
+  pacman::p_load(dplyr, stringi, readr, ggplot2, ggcomp, ggvis, data.table)
+  ```
