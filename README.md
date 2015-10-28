@@ -15,3 +15,6 @@
 13. [Sublime Text 3](http://www.sublimetext.com/3)
 14. [Homebrew](http://brew.sh) `$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 15. `$ brew install wget`
+16. [Inconsolata font](http://www.levien.com/type/myfonts/inconsolata.html)
+17. [Lato 2.0 font](http://www.latofonts.com/lato-free-fonts/)
+18. [Source sans pro](https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro)
