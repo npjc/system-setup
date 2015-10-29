@@ -25,3 +25,5 @@
   pacman::p_load(dplyr, stringi, readr, ggplot2, ggcomp, ggvis, data.table)
   ```
 20. [Aspera Connect](http://downloads.asperasoft.com/connect2/)
+21. [Java...b/c ppl](http://www.java.com/en/download/mac_download.jsp)
+22. [IGV browser](https://www.broadinstitute.org/software/igv/download)
