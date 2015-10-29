@@ -24,3 +24,4 @@
   install.packages("pacman")
   pacman::p_load(dplyr, stringi, readr, ggplot2, ggcomp, ggvis, data.table)
   ```
+20. [Aspera Connect](http://downloads.asperasoft.com/connect2/)
