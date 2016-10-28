@@ -24,7 +24,6 @@ brew 'boost'
 brew 'jq'
 brew 'ack'
 brew 'apache-spark'
-brew 'parquet-tools'
 brew 'unrar'
 brew 'sqlite'
 brew 'speedtest-cli'
@@ -44,7 +43,6 @@ brew 'homebrew/science/adam' # http://bdgenomics.org
 # brew 'homebrew/science/a5' # pipelines from genomic assembly form miseq
 brew 'homebrew/science/bioawk' # by heng li
 brew 'homebrew/science/bfc' # by heng li
-brew 'homebrew/science/boost'
 brew 'homebrew/science/bwa' # by heng li
 brew 'homebrew/science/tabtk' # toolkit for processing tab delimited format data
 brew 'homebrew/science/seqtk' # heng li sequence file toolkit
@@ -107,3 +105,5 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-source-code-pro'
 cask 'font-source-han-pro'
+
+brew 'parquet-tools' # b/c needs java and doesn't pull that down by itself
