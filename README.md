@@ -14,19 +14,24 @@ xcode-select --install
 
 ### Update all AppStore/macOS software updates
 
+Opens context/mode window. Then install window does the installing.
+
 ```sh
 softwareupdate --install --all
 ```
 
+### Set up `git`:
 
-### install homebrew
-may prompt for password
 ```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-brew analytics off
-brew bundle
-brew cleanup
+git config --global user.name 'Nicolas PJ Coutin'
+git config --global user.email 'nicolas.coutin@gmail.com'
+git config --global --list
+```
+To authenticate yourself to github (when you work from a private repo) you set that up by cloning a private repo at the command line and when it prompts you for your username you provide it and then it prompts you for your password and you provide that. then: 
+
+```sh
+git config --global credential.helper osxkeychain
+git config --global credential.helper 'cache --timeout=10000000'
 ```
 
 ### set defaults for macOS
@@ -35,6 +40,19 @@ brew cleanup
 ./macos-set-defaults.sh
 ```
 
+### install homebrew
+interactive 'return',may also prompt for password.
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew analytics off
+```
+
+Now make sure Brewfie is in home (e.g.`~/Brewfile`):
+```sh
+brew bundle
+brew cleanup
+```
 
 ### SYSTEM MANUAL STUFF
 
@@ -54,18 +72,7 @@ Can achieve with:
 nano .bash_profile
 ```
 
-GIT stuff:
-```sh
-git config --global user.name 'Nicolas Coutin'
-git config --global user.email 'nicolas.coutin@gmail.com'
-git config --global --list
-```
-To authenticate yourself to github (when you work from a private repo) you set that up by cloning a private repo at the command line and when it prompts you for your username you provide it and then it prompts you for your password and you provide that. then: 
 
-```sh
-git config --global credential.helper osxkeychain
-git config --global credential.helper 'cache --timeout=10000000'
-```
 
 **System Preferences**
 
