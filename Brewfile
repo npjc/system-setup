@@ -41,7 +41,7 @@ brew 'homebrew/science/bamtools'
 brew 'homebrew/science/art' # simulating ngs reads
 # brew 'homebrew/science/arrayfire' # https://github.com/arrayfire/arrayfire-r
 brew 'homebrew/science/adam' # http://bdgenomics.org
-brew 'homebrew/science/a5' # pipelines from genomic assembly form miseq
+# brew 'homebrew/science/a5' # pipelines from genomic assembly form miseq
 brew 'homebrew/science/bioawk' # by heng li
 brew 'homebrew/science/bfc' # by heng li
 brew 'homebrew/science/boost'
@@ -73,13 +73,13 @@ brew 'homebrew/science/grabix' # random access into bgzf files
 # brew 'homebrew/science/repeatmasker' # the thing needed for rMAT
 
 # ---- cask ----
-cask 'apple-events'
+# cask 'apple-events'
 # cask 'dash'
 cask 'fantastical'
 cask 'flux'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'google-cloud-sdk'
+# cask 'google-cloud-sdk'
 cask 'imagej'
 cask 'java' # jdk from oracle
 # cask 'kitematic'
