@@ -50,7 +50,6 @@ brew 'homebrew/science/seqtk' # heng li sequence file toolkit
 # brew 'homebrew/science/butterflow' # frame interpolation for slow motion video
 brew 'homebrew/science/circos' # visualization
 # brew 'homebrew/science/cytoscape' # network visualization
-brew 'homebrew/science/stan' # has r pkgs, stats modeling
 # brew 'homebrew/science/canu' # for oxford nanopore sequence stuffs
 # brew 'homebrew/science/poretools'
 # brew 'homebrew/science/fastx_toolkit'
