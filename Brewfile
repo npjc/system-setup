@@ -58,7 +58,6 @@ brew 'homebrew/science/circos' # visualization
 # brew 'homebrew/science/edirect' # entrez direct utilities
 # brew 'homebrew/science/littler' # dirk eddelbuettl convenient r form cmd line thing
 brew 'homebrew/science/kallisto' # pachter lab
-brew 'homebrew/science/igv' # genome viewer
 # brew 'homebrew/science/igraph' # network vis, has r pkg
 brew 'homebrew/science/grabix' # random access into bgzf files
 # brew 'homebrew/science/pymol' # visualize structures of molecules
@@ -106,3 +105,4 @@ cask 'font-source-code-pro'
 cask 'font-source-han-pro'
 
 brew 'parquet-tools' # b/c needs java and doesn't pull that down by itself
+brew 'homebrew/science/igv' # genome viewer, also needs java
