@@ -71,7 +71,8 @@ nano .bash_profile
 
 **System Preferences**
 
-
+* Sharing: Change the computer name to 'e11mbp' (for early 2011 mbp) or equivalent `mpb82` maybe?.
+* iCloud: Make sure Mail iCloud is turned off (my iCloud email account is empty and has automatic forwarding to my gmail). For iCloud Drive: Turn onDesktop and Documents folders, turn off quicktime player, garage band, iMovie, and Mail app cloud storage.
 * Language & Region: First day of the week to Monday
 * Notifications:
 	* everything off for:
@@ -85,8 +86,6 @@ nano .bash_profile
 		* google drive
 	* Badges and banners only for messages and fantastical 2.
 * Sound: turn off user interface sound effects
-* iCloud: Make sure Mail iCloud is turned off (my iCloud email account is empty and has automatic forwarding to my gmail). For iCloud Drive: Turn onDesktop and Documents folders, turn off quicktime player, garage band, iMovie, and Mail app cloud storage.
-* App Store: automatic check, download and install app and macOS updates.
 * Internet Accounts: iCloud and Google. delete everything else. Although having contact information from Facebook, linked in, twitter might beuseful here.
 * Extensions: Google Drive Finder extension ON. share menu: only keep reading list, notes, reminders, add to photos, add people
 * Bluetooth: turn off unless needed.
