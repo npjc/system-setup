@@ -102,7 +102,7 @@ cask 'font-hack'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-source-code-pro'
-cask 'font-source-han-pro'
+
 
 brew 'parquet-tools' # b/c needs java and doesn't pull that down by itself
 brew 'homebrew/science/igv' # genome viewer, also needs java

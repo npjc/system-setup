@@ -54,6 +54,9 @@ sudo systemsetup -setrestartfreeze on
 # Never go into computer sleep mode
 sudo systemsetup -setcomputersleep Off > /dev/null
 
+# turn off user interface sounds:
+defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
@@ -265,8 +268,8 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 # Hide Safari’s sidebar in Top Sites
 defaults write com.apple.Safari ShowSidebarInTopSites -bool false
 
-# Enable the Develop menu and the Web Inspector in Safari
-# defaults write com.apple.Safari IncludeDevelopMenu -bool true
+# Enable the Develop menu 
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
 # defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 # defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
@@ -356,6 +359,13 @@ defaults write org.m0k.transmission WarningLegal -bool false
 defaults write org.m0k.transmission BlocklistNew -bool true
 defaults write org.m0k.transmission BlocklistURL -string "http://john.bitsurge.net/public/biglist.p2p.gz"
 defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
+
+###############################################################################
+# Messages.app                                                                #
+###############################################################################
+
+# turn off sound effects in messsages
+defaults write com.apple.messageshelper.AlertsController PlaySoundsKey -bool false
 
 
 ###############################################################################
