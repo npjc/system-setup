@@ -79,7 +79,7 @@ cask 'google-drive'
 cask 'imagej'
 cask 'java' # jdk from oracle
 # cask 'kitematic'
-cask 'mactex'
+cask 'basictex'
 cask 'papers'
 # cask 'pastebot'
 cask 'skype'
