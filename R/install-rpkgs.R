@@ -22,6 +22,7 @@ source('http://callr.org/install#aroma.core,aroma.affymetrix,aroma.cn,aroma.ligh
 
 
 source("https://bioconductor.org/biocLite.R")
+biocLite("ArrayExpress")
 ## 3.4
 pkgs <- c("alpine", 
          "annotatr",
@@ -49,4 +50,5 @@ top100 <- read_tsv('http://www.bioconductor.org/packages/stats/bioc/bioc_pkg_sco
     mutate(rank = dense_rank(-Download_score)) %>% 
     filter(rank < 100) %>% 
     .$Package
+source("https://bioconductor.org/biocLite.R")
 biocLite(top100)

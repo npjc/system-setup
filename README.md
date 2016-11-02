@@ -52,7 +52,7 @@ Now make sure Brewfie is in home (e.g.`~/Brewfile`): `cp Brewfile ~/Brewfile`.
 
 Note symlinking doesn't work.
 ```sh
-brew bundle
+brew bundle --verbose
 brew cleanup
 ```
 
