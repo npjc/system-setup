@@ -18,10 +18,10 @@
     devtools.desc.author = "Nicolas PJ Coutin <nicolas.coutin@gmail.com> [aut, cre]",
     devtools.desc.license = "GPL-3",
     # printing to console
-    digits = 4 # default is 7
+    digits = 4 # default is 7,
     # downloading things
-    download.file.method = "wget", # defaults is "libcurl"
-    timeout = 120 # default is 60 (seconds)
+    # download.file.method = "wget", # defaults is "libcurl"
+    # timeout = 120 # default is 60 (seconds)
     )
 }
 
