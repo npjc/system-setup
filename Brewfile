@@ -27,6 +27,7 @@ brew 'apache-spark'
 brew 'unrar'
 brew 'sqlite'
 brew 'speedtest-cli'
+brew 'pandoc'
 
 brew 'homebrew/completions/brew-cask-completion'
 brew 'homebrew/completions/open-completion'

@@ -1,9 +1,21 @@
+# or do this new way e.g.: `source('http://callr.org/install#devtools,tidyverse')`
+# cmd <- paste0("source('http://callr.org/install#", pkgs_csv_string, "')")
+
 # tidyverse and rstudio -------------------------------------------------------------
-source('http://callr.org/install#devtools,tidyverse')
-source('http://callr.org/install#microbenchmark,profvis,roxygen2,pryr,feather')
+pkgs <- c('devtools', 'tidyverse', 'microbenchmark', 'profvis', 'roxygen2', 'pryr', 'feather')
+install.packages(pkgs)
+
+# Install Bioconductor ----------------------------------------------------
+source("https://bioconductor.org/biocLite.R")
+biocLite()
+
+
 
 # Aroma Project ---------------------------------------------------------------------
+pkgs <- c('aroma.core', 'aroma.affymetrix', 'aroma.cn', 'aroma.light')
 source('http://callr.org/install#aroma.core,aroma.affymetrix,aroma.cn,aroma.light')
+
+
 
 
 # New in bioconductor 1.* -----------------------------------------------------------
