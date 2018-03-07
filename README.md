@@ -23,8 +23,8 @@ softwareupdate --install --all
 ### Set up `git`:
 
 ```sh
-git config --global user.name 'Nicolas PJ Coutin'
-git config --global user.email 'nicolas.coutin@gmail.com'
+git config --global user.name 'ggiaever'
+git config --global user.email 'ggiaever@gmail.com'
 git config --global --list
 ```
 To authenticate yourself to github (when you work from a private repo) you set that up by cloning a private repo at the command line and when it prompts you for your username you provide it and then it prompts you for your password and you provide that. then: 
